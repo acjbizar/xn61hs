@@ -35,6 +35,8 @@ $r .= '<meta name="apple-mobile-web-app-capable" content="yes">';
 $r .= '<meta name="author" content="Alexander Christiaan Jacob">';
 $r .= '<meta name="description" property="og:description" content="By Alexander Christiaan Jacob, 2012.">';
 $r .= '<meta name="image" property="og:image" content="http://' . LOCAL . 'xn--61h.ga/image.jpg">';
+$r .= '<meta name="image" property="og:image:height" content="240">';
+$r .= '<meta name="image" property="og:image:width" content="240">';
 $r .= '<meta name="title" property="og:title" content="' . $thing[0] . '.ga">';
 $r .= '<meta property="og:type" content="website">';
 $r .= '<meta property="og:url" content="http://' . LOCAL . $thing[1] . '/">';
